@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Backdrop from './components/Backdrop';
 
-function App() {
+import GlobalStyle from './styles/global';
+
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Backdrop opacity={0.8} color="blue">
+        <p>Hello With Background!</p>
+      </Backdrop>
+      <Backdrop>
+        <p>Hello Without Background!</p>
+      </Backdrop>
+      <GlobalStyle />
+    </>
   );
-}
+};
 
 export default App;
