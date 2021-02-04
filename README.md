@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Using Typescript boiler plate and other configs found in []
+Using Typescript boiler plate and other configs found in [Configurando um projeto React com Typescript](https://dev.to/christiantld/configurando-um-projeto-react-com-typescript-3kg)
 
 ## Why this project is created?
 
